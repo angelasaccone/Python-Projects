@@ -2,6 +2,6 @@
 import random
 import time
 
-class Game:
+class GuessWhoGame:
   def_init_(self):
     self.
