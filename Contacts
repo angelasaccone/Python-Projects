@@ -1,0 +1,24 @@
+#Contacts from a phone book
+Contacts = []
+loop = 1
+
+while loop == 1:
+  userInput = raw_input("Please select an option: ").lower()
+  
+  if userInput == "a":
+    contact["name"] = raw_input("Enter name: ")
+    contact["phone"] = raw_input("Enter phone: ")
+    contact["email"] = raw_input("Enter email: ")
+    print "contact added"
+    contacts.append(contact)
+    print(contact)
+    
+  elif userInput == "b":
+    print "Listing Contacts"
+    print(contact)
+    
+  elif userInput == "c":
+    print "Listing Contacts"
+    print(contact)
+ 
+ #add main?
