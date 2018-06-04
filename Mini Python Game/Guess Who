@@ -1,7 +1,0 @@
-#Mini Python Game
-import random
-import time
-
-class GuessWhoGame:
-  def_init_(self):
-    self.
